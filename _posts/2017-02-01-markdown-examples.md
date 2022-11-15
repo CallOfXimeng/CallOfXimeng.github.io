@@ -23,7 +23,7 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
 
 ### Single line
 
-> My mom always said life was like a box of chocolates. You never know what you're gonna get.
+> 小楼一夜听春雨，深巷明朝卖杏花
 
 ### Multiline
 
