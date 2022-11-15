@@ -16,11 +16,23 @@ minimal: false             # use a dark header
 
 # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "topo_defects.pdf", title: "文集"}
-  - {menu: 
-      - a
-      - b, title: "aaa"}
+navbar:
+  title: My Website
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: Readings
+    menu:
+    - text: Module 1
+      href: readings-module1.html
+    - text: Module 2
+      href: readings-module2.html
+    - text: Module 3
+      href: readings-module3.html
+    - text: Module 4
+      href: readings-module4.html
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "liximeng@ihep.ac.cn"}
