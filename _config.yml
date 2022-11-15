@@ -66,7 +66,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "topo_defects.pdf", title: "文集"}
   - {menu: 
       - a
-      - b}
+      - b, title: "aaa"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "liximeng@ihep.ac.cn"}
