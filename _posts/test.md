@@ -1,8 +1,6 @@
 ---
 title:  "测试页面"
-mathjax: true
 layout: post
-categories: media
 ---
 
 ## 摘录
