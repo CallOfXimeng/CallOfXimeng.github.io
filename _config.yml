@@ -1,8 +1,8 @@
-title: "A log cabin in the cyber pine forest"
-author: "Ximeng Li"
-description: "IHEP, Beijing, China"
+title: "虚拟松林里的小屋"
+author: "Ling"
+description: "@Ling, IHEP, Beijing"
 permalink: /:title/
-lang: "en"
+lang: "cn"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
@@ -16,8 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "topo_defects.pdf", title: "Topological defects"}
-  - {file: "README.md", title: "About me"}
+  - {file: "topo_defects.pdf", title: "文集"}
+  - {file: "README.md", title: "关于作者"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "liximeng@ihep.ac.cn"}
