@@ -1,5 +1,5 @@
 ---
-title:  "星际介质 🌌🌌✨✨🌌🌌"
+title:  "星际介质"
 mathjax: true
 layout: post
 categories: media
@@ -7,13 +7,12 @@ categories: media
 
 本文翻译自[原始文章](https://www.astronomy.ohio-state.edu/ryden.1/ast162_3/notes11.html)，讲述星际介质的组成成分、密度以及与辐射的反应。
 
-
-
 ## 关键概念
 
 > - 星际介质由低密度气体和尘埃组成。
 > - 星际气体由嵌在热的云间气体中的冷云组成。
 > - 星际介质发射、吸收和反射辐射。
+
 
 ## 1. 星际介质由低密度气体和尘埃组成
 
