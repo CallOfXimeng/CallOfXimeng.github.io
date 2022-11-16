@@ -10,7 +10,7 @@ categories: media
      + Git篇1 - 安装
      + Git篇2 - 开始使用：add与commit
  - Mathematica
-     + 在Mathematica里Print下标
+     + [在Mathematica里Print下标](https://callofximeng.github.io/mma_1/)
      + 插值函数的反函数
      + MMA绘制散点图
      + Mathematica删除带有下标的变量
