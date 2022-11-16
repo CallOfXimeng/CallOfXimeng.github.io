@@ -8,6 +8,10 @@ categories: media
 😸 程序
  -Git
  -Mathematica
+     - 在Mathematica里Print下标
+     - 插值函数的反函数
+     - MMA绘制散点图
+     - Mathematica删除带有下标的变量
  -LaTex
  
 😼 算法
