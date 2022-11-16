@@ -5,7 +5,8 @@ layout: post
 categories: media
 ---
 
-[The original article](https://www.astronomy.ohio-state.edu/ryden.1/ast162_3/notes11.html) is about the interstella medium, the compositions, densities and the interaction with radiation.
+本文翻译自[原始文章](https://www.astronomy.ohio-state.edu/ryden.1/ast162_3/notes11.html)，讲述星际介质的组成成分、密度以及与辐射的反应。
+
 
 【关键概念】
 
