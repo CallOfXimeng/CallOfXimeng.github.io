@@ -5,10 +5,14 @@ layout: post
 categories: media
 ---
 
-> :smile_cat: 程序
+> 😸 程序
 > - Git
->     - 1
->     - 2
->  -2
-
-> :smirk_cat: 算法
+> - Mathematica
+> - LaTex
+> 😼 算法
+> 😽 笔记
+>  - 有限温度场论(TQFT)
+>  - 引力波(GW)与后牛顿近似(PN)
+>  - 非线性动力学问题
+> 😻 文摘
+> 😹 一些脑洞
