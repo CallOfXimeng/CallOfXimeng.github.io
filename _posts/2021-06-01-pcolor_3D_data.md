@@ -9,27 +9,28 @@ categories: media
 
 
 当面对更多维度的数据时，例如常见的课程表就是三维数据
-![课程表]![image](https://user-images.githubusercontent.com/31767235/202094750-7ee9522d-a7cb-472e-a2d2-bdff9917dbc9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
+![课程表](https://user-images.githubusercontent.com/31767235/202094750-7ee9522d-a7cb-472e-a2d2-bdff9917dbc9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 
 课程表的横坐标代表星期几，纵坐标则代表每一天的时间，这是两个自变量。而课程表的因变量则是课程，例如我们可以设“有课”为1，“无课”为0，则课程表可以用一个简单的0-1矩阵进行量化，例如下面在Origin中所展现的那样
-![量化的数据](https://upload-images.jianshu.io/upload_images/17607408-7dc868be3215eb96.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![量化的数据](https://user-images.githubusercontent.com/31767235/202097796-922e340a-3d82-45e5-8485-83ff9bdcfcd2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
+
 如果给标有1的格子涂上一种颜色，代表有课，给标有0的格子涂上另一种颜色，代表没课，我们就获得了一个最简单的展现三维数据的图形
-![有无课程]![image](https://user-images.githubusercontent.com/31767235/202094799-6bf95d92-9541-4c83-860e-c50db2def344.png)
+![有无课程](https://user-images.githubusercontent.com/31767235/202094799-6bf95d92-9541-4c83-860e-c50db2def344.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000)
 
 这张图是用matlab的pcolor函数画的(实际上是修正了原始数据的pcolor，因为pcolor不会画出最边缘的一行和一列），用excel、origin和python自然都可以画出来。从图中可以看出，除了星期三（横坐标3-4之间）以外，每一天都不必早起，另外由于第4和第5节课之间是午餐时间，可见星期三是不能午休的。类似地，星期一和星期五下午没有太多的时间进行运动，因为下午过后有晚课。这样，我们就将课程表的数据转换为了直观可视的二维图。
 
 只显示有无课，对于数据分析而言是不够的，我们可以尝试对更多的信息进行量化。例如，将纵坐标缩小为“上午-中午-下午”，横坐标展示课程的节数，我们可以把矩阵写成：
-![课程节数]![image](https://user-images.githubusercontent.com/31767235/202094945-bd38d0ce-12e8-4431-8aff-12c63156ed66.png)
+![课程节数](https://user-images.githubusercontent.com/31767235/202094945-bd38d0ce-12e8-4431-8aff-12c63156ed66.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 
 仿照刚才的样子，像涂数字油画那样，给每一个格子上色，不同的数字涂上不同的颜色。为了方便观察，我们一般取一个有规律的色阶，例如数字从小到大，对应颜色由蓝色渐变到黄色，就得到了下面的图形
-![课程节数热力图]![image](https://user-images.githubusercontent.com/31767235/202095033-48e143f9-ee7a-4115-965b-4a566cfb5fda.png)
+![课程节数热力图](https://user-images.githubusercontent.com/31767235/202095033-48e143f9-ee7a-4115-965b-4a566cfb5fda.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 （图中的坐标文字是后加的）
 
 在对课程节数进行量化后，我们可以看出，同样是上午，星期二比星期三的颜色更接近蓝色，也就对应着更少的课程。通过这样的方法，我们对课程表进行了一个量化，将原来的文字信息转换成了数据。值得注意的是，这样的量化方式有很多。我们还可以对不同的课程进行打分，例如设计一个量表，关心的内容是作业多寡，假如，《规范场论》的作业是最多的，然后《自然辩证法》其次，《引力与宇宙学》再次之。于是得到了一个新的量化方式：给《规范场论》的格子填上4，《自然辩证法》填上3，《引力与宇宙学》填上2，其他课程填上1，没课则填上0。在这样的量化条件下，我们得到了下面这个新的课程表：
-![作业量课程表]![image](https://user-images.githubusercontent.com/31767235/202095067-27d44d41-fd30-4f22-bd3c-5d67b26aa7e2.png)
+![作业量课程表](https://user-images.githubusercontent.com/31767235/202095067-27d44d41-fd30-4f22-bd3c-5d67b26aa7e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 
 用和上面类似的方法进行涂色，我们就得到了一张新的彩图
-![作业量热力图]![image](https://user-images.githubusercontent.com/31767235/202095080-64b06077-8a11-4071-b893-5b6a224d6168.png)
+![作业量热力图](https://user-images.githubusercontent.com/31767235/202095080-64b06077-8a11-4071-b893-5b6a224d6168.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 
 竖着看这张图，星期一的颜色是最偏黄色的，表示星期一要交的作业最多，换句话，星期天就很有可能会熬夜了。实际情况也是这样的。通过一个量表式的量化，我们可以提取出关心的数据，然后将其作为因变量，涂在由两个自变量所确定的格子里面，这样就画出了一个表征三维数据的平面图，因变量大小由颜色确定。这样的图叫做**热力图**。
 
@@ -44,19 +45,19 @@ categories: media
 因变量：用户的人数
 
 接下来的问题，是如何确定每一个格子的人数了，也就是要给下面5x5的黑色格子填上数。
-![准备量化]![image](https://user-images.githubusercontent.com/31767235/202095126-4f0bc6f0-6206-4dc1-aa65-80df5779b95b.png)
+![准备量化](https://user-images.githubusercontent.com/31767235/202095126-4f0bc6f0-6206-4dc1-aa65-80df5779b95b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 
-解读这一个数表，每一个格子都有具体的含义，例如，(处理方式, 心情好坏)=(2,4)表示，稍后阅读消息并且心情有点不好的用户。那么(2,4)这个格子对应多少人呢？很容易想到评选班委的唱票法：每有一个这样的用户，就给正字添上一笔。
-知道了这一点，写下一个算法就很容易了：
-for person in all_questionnaire
-____x = person.operation
-____y = person.mood
-____table(x, y) += 1
-endfor
-（下划线表示缩进）
+解读这一个数表，每一个格子都有具体的含义，例如，(处理方式, 心情好坏)=(2,4)表示，稍后阅读消息并且心情有点不好的用户。那么(2,4)这个格子对应多少人呢？很容易想到评选班委的唱票法：每有一个这样的用户，就给正字添上一笔。知道了这一点，写下一个算法就很容易了：
+
+> for person in all_questionnaire
+>   x = person.operation
+>   y = person.mood
+>   table(x, y) += 1
+> endfor
+
 
 利用这样的算法，我们就可以生成类似于量化课程表那样的数表。或者，有些软件有现成的方法可以一键绘制热力图，例如Origin，画出来还很好看，可以经过各种后期调整，推荐使用：
-![有趣程度-用户操作热力图]![image](https://user-images.githubusercontent.com/31767235/202095168-d0e008dc-97bb-4ff9-bbce-6824fa1c8057.png)
+![有趣程度-用户操作热力图](https://user-images.githubusercontent.com/31767235/202095168-d0e008dc-97bb-4ff9-bbce-6824fa1c8057.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/840)
 
 最后画出来的图是这样的。说到数据可视化，我们一定能从里面分析出点什么来。还记得色阶的定义嘛？颜色越偏红，代表该类用户数量越多；相反，颜色越偏蓝，代表该类用户数量越少。从图中可以很明显地看出，对于有趣程度=1，也就是很无聊的消息，选择一键清空全部消息的用户数量十分多，接近了50人。而对于有趣程度=4，也就是比较有趣的消息，大约有10名用户选择了立即查看，而有接近20名用户选择了稍后查看，几乎没有用户选择忽略或删除消息。从这一个热力图中，我们获得了这样的信息。
 
