@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-本文翻译自https://www.astronomy.ohio-state.edu/ryden.1/ast162_3/notes11.html
+[The original article](https://www.astronomy.ohio-state.edu/ryden.1/ast162_3/notes11.html) is about the interstella medium, the compositions, densities and the interaction with radiation.
 
 【关键概念】
 
