@@ -5,6 +5,13 @@ layout: post
 categories: media
 ---
 
+<style>
+img{
+    width: 60%;
+    padding-left: 20%;
+}
+</style>
+
 两维数据的展现形式有很多，例如使用图线相对高低来表征数据大小的折线图与条形图，用角度大小来表征占比的饼形图。本文将简要介绍三维数据的热力图可视化方案。
 
 
