@@ -24,7 +24,7 @@ categories: media
  
 😼 算法
 - 数据可视化与绘图
-    + 从课程表到相关度分析——用热力图做三维数据可视化
+    + [从课程表到相关度分析——用热力图做三维数据可视化](https://callofximeng.github.io/pcolor_3D_data/)
     + 十分不依赖数学的求极值算法——模拟退火(simulated annealing)算法
  
 😽 笔记 
