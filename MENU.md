@@ -17,7 +17,7 @@ categories: media
  - LaTex
      + 【LaTeX的小技巧】在字母正上（下）方输入公式
      + 【工欲善其事 - 1】如何配置Adobe Brackets的LaTeX环境
-     + 【LaTeX的小技巧】表头格式声明的多次重复
+     + [【LaTeX的小技巧】表头格式声明的多次重复](https://callofximeng.github.io/tex_1/)
      + 【LaTeX的小技巧】如何在LaTeX中输入partial slash
      + 【LaTeX的小技巧】如何输入小于约等于(lesssim)
      + 【LaTeX的小技巧】输入积分求和号
@@ -25,7 +25,7 @@ categories: media
 😼 算法
 - 数据可视化与绘图
     + [从课程表到相关度分析——用热力图做三维数据可视化](https://callofximeng.github.io/pcolor_3D_data/)
-    + 十分不依赖数学的求极值算法——模拟退火(simulated annealing)算法
+    + [十分不依赖数学的求极值算法——模拟退火(simulated annealing)算法](https://callofximeng.github.io/simulated_annealing/)
  
 😽 笔记 
  - 有限温度场论(TQFT)
