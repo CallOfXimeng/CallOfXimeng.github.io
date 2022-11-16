@@ -16,13 +16,9 @@ minimal: false             # use a dark header
 
 # Menu
 
-navbar:
-  title: My Website
-  left:
-  - text: "文集"
-    href: index.html
-  - text: "关于"
-    href: README.md
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "topo_defects.pdf", title: "文集"}
+  - {file: "README.md", title: "关于作者"}
  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
