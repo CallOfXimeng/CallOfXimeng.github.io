@@ -6,13 +6,13 @@ categories: media
 ---
 
 😸 程序
- -Git
- -Mathematica
-     - 在Mathematica里Print下标
-     - 插值函数的反函数
-     - MMA绘制散点图
-     - Mathematica删除带有下标的变量
- -LaTex
+ - Git
+ - Mathematica
+     + 在Mathematica里Print下标
+     + 插值函数的反函数
+     + MMA绘制散点图
+     + Mathematica删除带有下标的变量
+ - LaTex
  
 😼 算法
  
@@ -21,7 +21,7 @@ categories: media
  - 引力波(GW)与后牛顿近似(PN)
  - 非线性动力学问题
  - 其他宇宙学问题
-     -星际介质
+     + 星际介质
  
 😻 文摘
  
