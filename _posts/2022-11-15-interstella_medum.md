@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-本文翻译自[原始文章](https://www.astronomy.ohio-state.edu/ryden.1/ast162_3/notes11.html)，讲述星际🌌介质的组成成分、密度以及与辐射的反应。
+本文翻译自[原始文章](https://www.astronomy.ohio-state.edu/ryden.1/ast162_3/notes11.html)，讲述星际介质的组成成分、密度以及与辐射的反应。
 
 
 
