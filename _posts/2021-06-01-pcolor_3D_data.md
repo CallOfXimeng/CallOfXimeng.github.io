@@ -5,7 +5,10 @@ layout: post
 categories: media
 ---
 
-两维数据的展现形式有很多，例如使用图线相对高低来表征数据大小的折线图与条形图，用角度大小来表征占比的饼形图。当面对更多维度的数据时，例如常见的课程表就是三维数据
+两维数据的展现形式有很多，例如使用图线相对高低来表征数据大小的折线图与条形图，用角度大小来表征占比的饼形图。本文将简要介绍三维数据的热力图可视化方案。[image](https://user-images.githubusercontent.com/31767235/202095168-d0e008dc-97bb-4ff9-bbce-6824fa1c8057.png/w/1000)
+
+
+当面对更多维度的数据时，例如常见的课程表就是三维数据
 ![课程表]![image](https://user-images.githubusercontent.com/31767235/202094750-7ee9522d-a7cb-472e-a2d2-bdff9917dbc9.png)
 
 课程表的横坐标代表星期几，纵坐标则代表每一天的时间，这是两个自变量。而课程表的因变量则是课程，例如我们可以设“有课”为1，“无课”为0，则课程表可以用一个简单的0-1矩阵进行量化，例如下面在Origin中所展现的那样![量化的数据](https://upload-images.jianshu.io/upload_images/17607408-7dc868be3215eb96.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
