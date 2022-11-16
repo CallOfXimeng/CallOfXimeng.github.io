@@ -21,7 +21,7 @@ navbar:
   left:
   - text: "文集"
     href: index.html
-  - text: "关于作者"
+  - text: "关于"
     href: README.md
  
 
