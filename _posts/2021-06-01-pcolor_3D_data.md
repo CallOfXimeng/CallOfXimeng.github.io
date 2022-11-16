@@ -9,13 +9,14 @@ categories: media
 
 
 当面对更多维度的数据时，例如常见的课程表就是三维数据
-![课程表]![image](https://user-images.githubusercontent.com/31767235/202094750-7ee9522d-a7cb-472e-a2d2-bdff9917dbc9.png)
+![课程表]![image](https://user-images.githubusercontent.com/31767235/202094750-7ee9522d-a7cb-472e-a2d2-bdff9917dbc9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 课程表的横坐标代表星期几，纵坐标则代表每一天的时间，这是两个自变量。而课程表的因变量则是课程，例如我们可以设“有课”为1，“无课”为0，则课程表可以用一个简单的0-1矩阵进行量化，例如下面在Origin中所展现的那样![量化的数据](https://upload-images.jianshu.io/upload_images/17607408-7dc868be3215eb96.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 如果给标有1的格子涂上一种颜色，代表有课，给标有0的格子涂上另一种颜色，代表没课，我们就获得了一个最简单的展现三维数据的图形
 ![有无课程]![image](https://user-images.githubusercontent.com/31767235/202094799-6bf95d92-9541-4c83-860e-c50db2def344.png)
 
 这张图是用matlab的pcolor函数画的(实际上是修正了原始数据的pcolor，因为pcolor不会画出最边缘的一行和一列），用excel、origin和python自然都可以画出来。从图中可以看出，除了星期三（横坐标3-4之间）以外，每一天都不必早起，另外由于第4和第5节课之间是午餐时间，可见星期三是不能午休的。类似地，星期一和星期五下午没有太多的时间进行运动，因为下午过后有晚课。这样，我们就将课程表的数据转换为了直观可视的二维图。
+
 只显示有无课，对于数据分析而言是不够的，我们可以尝试对更多的信息进行量化。例如，将纵坐标缩小为“上午-中午-下午”，横坐标展示课程的节数，我们可以把矩阵写成：
 ![课程节数]![image](https://user-images.githubusercontent.com/31767235/202094945-bd38d0ce-12e8-4431-8aff-12c63156ed66.png)
 
