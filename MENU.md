@@ -21,12 +21,14 @@ categories: media
      + [【LaTeX的小技巧】如何在LaTeX中输入partial slash](https://callofximeng.github.io/tex3/)
      + [【LaTeX的小技巧】如何输入小于约等于(lesssim)](https://callofximeng.github.io/tex4/)
      + 【LaTeX的小技巧】输入积分求和号
+
 🌌🌌🌌🌌🌌🌌
 
 😼 算法
 - 数据可视化与绘图
     + [从课程表到相关度分析——用热力图做三维数据可视化](https://callofximeng.github.io/pcolor_3D_data/)
     + [十分不依赖数学的求极值算法——模拟退火(simulated annealing)算法](https://callofximeng.github.io/simulated_annealing/)
+
 ✨✨✨✨✨✨
 
 😽 笔记 
@@ -35,9 +37,11 @@ categories: media
  - 非线性动力学问题
  - 其他宇宙学问题
      + [星际介质](https://callofximeng.github.io/interstella_medum/)
+
 🌖🌖🌖🌖🌖🌖 
  
 😻 文摘
+
 🪐🪐🪐🪐🪐🪐 
  
 😹 一些脑洞
