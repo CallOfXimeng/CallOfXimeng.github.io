@@ -7,8 +7,8 @@ categories: media
 
 😸 程序
  - Git
-     + Git篇1 - 安装
-     + Git篇2 - 开始使用：add与commit
+     + [Git篇1 - 安装](https://callofximeng.github.io/git_1/)
+     + [Git篇2 - 开始使用：add与commit](https://callofximeng.github.io/git_2/)
  - Mathematica
      + [在Mathematica里Print下标](https://callofximeng.github.io/mma_1/)
      + 插值函数的反函数
