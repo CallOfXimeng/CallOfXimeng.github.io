@@ -14,6 +14,7 @@ categories: media
      + 插值函数的反函数
      + [MMA绘制散点图](https://callofximeng.github.io/mma_2/)
      + [Mathematica删除带有下标的变量](https://callofximeng.github.io/mma_3/)
+     + [Mathematica自定义默认绘图主题](https://callofximeng.github.io/mma_4/)
  - LaTex
      + [【LaTeX的小技巧】在字母正上（下）方输入公式](https://callofximeng.github.io/tex2/)
      + 【工欲善其事 - 1】如何配置Adobe Brackets的LaTeX环境
