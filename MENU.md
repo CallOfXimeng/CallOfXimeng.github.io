@@ -35,10 +35,12 @@ categories: media
 😽 笔记 
  - 有限温度场论(TQFT)
     + [1. 热力学与统计物理的回顾](https://callofximeng.github.io/tqft1/)
+ - 弯曲时空的量子场论
+    + [施瓦西黑洞质量的波尔-索墨菲量子化](https://callofximeng.github.io/BHquantization/)
  - 引力波(GW)与后牛顿近似(PN)
  - 非线性动力学问题
  - 其他宇宙学问题
-     + [星际介质](https://callofximeng.github.io/interstella_medum/)
+    + [星际介质](https://callofximeng.github.io/interstella_medum/)
 
 🌖🌖🌖🌖🌖🌖 
  
