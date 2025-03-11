@@ -1,0 +1,25 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ https://callofximeng.github.io/ }}</link>
+    <description>{{ site.description }}</description>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <ttl>1800</ttl>
+
+    {% for post in site.posts limit:10 %}
+    <item>
+      <title>{{ post.title | escape }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <description>{{ post.content | strip_html | truncatewords: 50 }}</description>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
