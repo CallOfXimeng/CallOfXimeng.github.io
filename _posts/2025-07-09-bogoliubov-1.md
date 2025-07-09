@@ -22,11 +22,41 @@ $$\Phi^4=(\Phi_g+\Phi_r)^4 = \Phi_g^4 + 4\Phi_g^3\Phi_r +\cdots $$
 
 
 # 1. 背景：时间依赖的Hamltonian
-对于具有Higgs势的标量场，我们很熟悉其由单圈修正给出的有限温度形式：$$V(\phi)=V_0(\phi)+V_1(\phi) $$，其中单圈修正同时包含零温与有限温度修正$$ V_1=V_1^0+V_1^T$$。由配分函数
+对于具有Higgs势的标量场，我们很熟悉其由单圈修正给出的有限温度形式：$$V(\phi)=V_0(\phi)+V_1(\phi) $$，其中单圈修正同时包含零温与有限温度修正$$ V_1=V_1^0+V_1^T$$。我们用一个时间依赖的形式描述标量场EFT，例如暴涨理论，如下
 
-$$Z=\mathrm{e}^{-\beta \mathcal{F}} $$
+$$V(\phi)=-\frac{1}{2}\mu^2\phi^2+\lambda(t)\phi^4 $$
 
-不能计算得到Helmholtz自由能，也就是我们熟知的有限温度修正，
+考虑标量场包含两部分：一个随时间演化的“均值”部分，以及同时与位置、时间有关的“涨落”部分，即
 
-$$\mathcal{F}=-(N_B+\frac{7}{8}N_F)\frac{\pi^2 T^4}{90} $$
+$$\phi(t,\mathbf{r})\equiv \phi_0(t)+\delta\phi(t,\mathbf{r}) $$
+
+得到与$$\delta \phi$$相关的作用量部分
+
+$$ S[\delta \phi] =\int d^4x \left[\frac{1}{2} \partial_\mu \delta \phi \partial^\mu \delta \phi -  \frac{1}{2} m_{\text{eff}}^2\left(t \right)\delta \phi ^2 +\mathcal{O}(\delta \Phi ^4 )\right]$$
+
+其中的有效质量由势能二阶导数给出，即
+
+$$m_{\rm eff}^2(t) =\mu^2-12\lambda(t)\phi_0^2(t) $$
+
+可见，当$$ \lambda(t)$$足够大，使得$$ m_{\rm eff}^2=0$$时，相变发生。这个标量场满足的运动学方程为
+
+$$\left(\Box+m_{\rm eff}^2(t)\right)\delta\phi(t,\mathbf{x})=0 $$
+
+# 2. 相变前后的波函数
+不妨将发生相变的时间定为$$ t=0$$，波函数可以在相变以前(in)和以后(out)两组基下面展开
+
+$$\delta\phi(t,\mathbf{x})=\int\frac{d^3k}{(2\pi)^3}\left[a_k^{\rm in}u_{k}^{\rm in}(t)\mathrm{e}^{\mathrm{i}k\cdot x}+\mathrm{h.c.}\right]=\int\frac{d^3k}{(2\pi)^3}\left[a_k^{\rm out}u_{k}^{\rm out}(t)\mathrm{e}^{\mathrm{i}k\cdot x}+\mathrm{h.c.}\right] $$
+
+每一组基都满足对易关系 $$[a_k, a_{k'}^{\dagger}]=(2\pi)^3\delta^3(k-k') $$。注意到这两组基定义了两个不同的真空
+
+$$a_k^{\rm in}\left|0_{\rm in}\right>=0, \; a_k^{\rm out}\left|0_{\rm out}\right>=0 $$
+
+相变只是势能（或者势能的一阶导）不连续，波函数本身是连续并且光滑的，这样就可以把相变前后的波函数接起来:
+
+$$ t<0: \; u_k^{\rm in}(t)=\frac{1}{\sqrt{2\omega_{k,i}}}\mathrm{e}^{-\mathrm{i}\omega_{k,i}t}$$
+
+$$ t>0: \;, u_k^{\rm in}(t)=A_k\mathrm{e}^{-\mathrm{i}\omega_{k,f}t}+B_k\mathrm{e}^{\mathrm{i}\omega_{k,f}t}$$ 
+
+
+
 
